@@ -118,12 +118,45 @@
     margin-left: 13vw;
 }
 
+.inputField_3{
+    width: 25vw;
+}
+
 .optionsSelected_display{
     width: 17vw;
     background-color: aliceblue;
     border-radius: 7px;
     padding-top: 5px;
 }
+@media only screen and (max-width: 1330px) {
+    .optionsSelected_display{
+        width: 19vw;
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    .optionsSelected_display{
+        width: 21vw;
+    }
+    .inputField_3{
+        width: 28vw;
+    }
+  }
+  @media only screen and (max-width: 1010px) {
+    .optionsSelected_display{
+        width: 23vw;
+    }
+    .inputField_3{
+        width: 32vw;
+    }
+  }
+  @media only screen and (max-width: 1010px) {
+    .optionsSelected_display{
+        width: 26vw;
+    }
+    .inputField_3{
+        width: 34vw;
+    }
+  }
 .dropdown-menu{
     width: 20vw;
 }

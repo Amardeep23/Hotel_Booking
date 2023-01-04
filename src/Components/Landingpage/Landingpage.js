@@ -69,8 +69,8 @@ function Landingpage() {
                   onchange="this.className=(this.value!=''?'has-value':'')"
                 />
               </div>
-              <div className="inputField_3" style={{width:'25vw'}}>
-                <div class="input-group mb-3">
+              <div className="inputField_3">
+                <div class="input-group mb-3 inputField_3_child">
                   <div className="optionsSelected_display">
                     <span>Room: {roomState} - Adult: {adultState} - Child: {childState}</span>
                   </div>
